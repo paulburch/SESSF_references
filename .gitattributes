@@ -1,0 +1,5 @@
+# Store text files with LF in the repo; check out with Windows line endings
+* text=auto
+*.bib text eol=crlf
+*.R   text eol=crlf
+*.md  text eol=crlf

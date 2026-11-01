@@ -10,6 +10,7 @@ Shared bibliography for reports on the Southern and Eastern Scalefish and Shark 
 |---|---|
 | `SESSF.bib` | Master bibliography (BibLaTeX format, maintained with JabRef) |
 | `check_bib.R` | Checks for duplicate keys, missing fields and unbalanced braces |
+| `fisheries-research.csl` | Citation style used by SESSF reports (Fisheries Research, author-date) |
 
 ## Using it in an R Markdown report
 
@@ -29,6 +30,14 @@ Shared bibliography for reports on the Southern and Eastern Scalefish and Shark 
    ```
 
 Each person sets their own path in `.Renviron`, so the report itself needs no changes between machines.
+
+To use the citation style from this repo as well, add:
+
+```yaml
+csl: "`r file.path(dirname(Sys.getenv('SESSF_BIB')), 'fisheries-research.csl')`"
+```
+
+`fisheries-research.csl` is a dependent style: it names Elsevier Harvard as its parent, which pandoc downloads when the report is knitted.
 
 ## Adding or fixing references
 

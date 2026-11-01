@@ -3,3 +3,4 @@
 *.bib text eol=crlf
 *.R   text eol=crlf
 *.md  text eol=crlf
+*.csl text eol=crlf

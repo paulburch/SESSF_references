@@ -56,3 +56,13 @@ English.
   Tuck2026flathead-oct and Sporcic2026sessfcpue-draft (SERAG October 2026
   papers, not yet released) and Smith2000sef_v1 (same document as
   Rowling1999redfish, with wrong authors).
+- 20 Nov 2026 (Paul asked): 51 entries added for the Tier 4 code and history
+  review (`Assessments_Tier_4/Haddon_code_review/review`): Tier 4 reports
+  (Haddon 2013 draft, 2015, 2016 and 2017 Blue-eye; Little et al. 2008, 2010;
+  Wayte and Fuller 2008; Sporcic and Haddon 2018 deepwater CPUE), Tuck (ed.)
+  volumes 2014--2022 as @Collection, AFMA TAC recommendations, HSF 2021,
+  interim harvest strategy 2025, and ShelfRAG, SlopeRAG, SharkRAG, SERAG,
+  SESSFRAG and GABRAG minutes 2009--2025. 550 entries; `check_bib.R` clean.
+  Where a report is already here as a stand-alone paper (e.g. Haddon2013tier4,
+  Sporcic2020tier4-dec) the review reuses that key, although its page numbers
+  come from the Tuck chapter version.
